@@ -1,0 +1,18 @@
+{
+  "name": "demo-docker-hardhat",
+  "version": "1.0.0",
+  "description": "dockerizing setup for hardhat solidity smart contract development envr.",
+  "main": "index.js",
+  "scripts": {
+    "linux_setup_hardhat_exec": "chmod +x setup_hardhat_env.sh",
+    "linux_execute_hardhat_env": "./setup_hardhat_env.sh",
+    "win_execute_hardhat_env": "setup_hardhat_env.bat",
+    "hardhat": "hardhat"
+  },
+  "devDependencies": {
+    "hardhat": "*",
+    "@nomicfoundation/hardhat-toolbox": "*"
+  },
+  "author": "Pablo Brandenburg",
+  "license": "ISC"
+}
